@@ -1,7 +1,11 @@
 # Lion CLI
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/justinwickenheiser/lion-cli.svg?style=flat-square)](https://packagist.org/packages/justinwickenheiser/lion-cli)
+[![Latest Stable Version](https://poser.pugx.org/justinwickenheiser/lion-cli/v)](//packagist.org/packages/justinwickenheiser/lion-cli)
+[![Total Downloads](https://poser.pugx.org/justinwickenheiser/lion-cli/downloads)](//packagist.org/packages/justinwickenheiser/lion-cli)
+[![Latest Unstable Version](https://poser.pugx.org/justinwickenheiser/lion-cli/v/unstable)](//packagist.org/packages/justinwickenheiser/lion-cli)
+[![License](https://poser.pugx.org/justinwickenheiser/lion-cli/license)](//packagist.org/packages/justinwickenheiser/lion-cli)
+
+Lion CLI was created to quickly spin up boiler-plate packages for gvsu-webteam development. It was built on [Laravel-Zero](https://laravel-zero.com/).
 
 ## Install
 
@@ -21,6 +25,7 @@ Check to see if the install worked. You may have to close and reopen the termina
 lion -v
 ```
 
+### Local Build
 
 If you wish to clone the repo and do a local build, then you can run the following commands:
 
