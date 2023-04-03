@@ -34,3 +34,50 @@ php lion app:build --build-version=0.0.0
 ln -s ./builds/lion /usr/local/lib/lion-cli/bin/lion
 sudo ln -s ../lib/lion-cli/bin/lion /usr/local/bin/lion
 ```
+
+## Usage
+
+1. Create a new package
+```bash
+lion new <name>
+```
+
+2. Use the artisan `make:<xyz>` commands that you are familiar with.
+```bash
+lion make:model Hotel -cr
+lion make:migration create_hotels_table
+```
+
+## Package Structure
+
+The structure of packages generated with lion mirrors that of Laravel projects. The exception is Laravel projects have /app, where the package will use /src.
+```
+package/
+|
++-- config/
+|
++-- database/
+|   |
+|   +-- migrations/
+|
++-- resources/
+|   |
+|   +-- views/
+|
++-- routes/
+|      web.php
+|
++-- src/
+|   |
+|   +-- Facades/
+|   |
+|   +-- Http/
+|   |	|
+|   |	+-- Controllers/
+|   |
+|   +-- Models/
+|   |
+|   +-- Providers/
+|
++-- tests/
+```
