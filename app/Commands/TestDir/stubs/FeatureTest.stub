@@ -1,0 +1,20 @@
+<?php
+
+namespace StudlyDummyVendor\StudlyDummyPackageName\Tests\Feature;
+
+use StudlyDummyVendor\StudlyDummyPackageName\Tests\TestCase;
+
+class ExampleTest extends TestCase
+{
+    /**
+     * A basic test example.
+     *
+     * @return void
+     */
+    public function testBasicTest()
+    {
+        $response = $this->get('/');
+
+        $response->assertStatus(200);
+    }
+}

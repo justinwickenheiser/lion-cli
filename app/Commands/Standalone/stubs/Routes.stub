@@ -1,0 +1,7 @@
+<?php
+
+namespace StudlyDummyVendor\StudlyDummyPackageName;
+
+use Illuminate\Support\Facades\Route;
+
+// 
