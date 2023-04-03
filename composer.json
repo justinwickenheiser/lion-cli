@@ -3,7 +3,6 @@
     "description": "A CLI to quickly spin up boiler-plate packages for gvsu-webteam development.",
     "keywords": ["php", "laravel", "lion", "cli", "gvsu"],
     "homepage": "https://github.com/justinwickenheiser/lion-cli",
-    "type": "project",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/justinwickenheiser/lion-cli/issues",
